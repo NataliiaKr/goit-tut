@@ -22,14 +22,14 @@ background-color: #84A178;
      position: relative;
      padding-left: 93px;
      padding-right: 93px;
+    }
 
-     
-}
+ /* стили для первого варианта анимации через JS */
 
-#gallery__box {
+ #gallery__box {
     margin-right: auto;
     margin-left: auto;
-    background-color: black;   
+  
     width: 1013px;
     height: 422px;
     border-radius: 24px;
@@ -38,6 +38,7 @@ background-color: #84A178;
    top:0;
    left: 93px;
    transform: translateY(-22.2%);
+    
 }
 
 #gallery__content
@@ -62,16 +63,16 @@ background-color: #84A178;
 
 .gallery__box {
     margin-right: auto;
-        margin-left: auto;
+     margin-left: auto;
        
-        width: 1013px;
-        height: 422px;
-        border-radius: 24px;
-        overflow: hidden;
-        position: absolute;
-        top: 0;
-        left: 93px;
-        transform: translateY(-22.2%);
+    width: 1013px;
+    height: 422px;
+    border-radius: 24px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 93px;
+    transform: translateY(-22.2%);
     position: relative;
   
 }
